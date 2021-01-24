@@ -82,11 +82,11 @@ I just changed the value that is after the buffer as we can see from the disasse
 #!/usr/bin/python3
 from pwn import *
 
-ip = 'some_ip' # change this
+ip = 'ctf.uniwa.gr' # change this
 port = 6969 # change this
 fname = './intro'
 
-LOCAL = True
+LOCAL = False
 
 if LOCAL:
 	r = process(fname)
