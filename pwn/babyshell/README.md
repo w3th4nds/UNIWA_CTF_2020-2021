@@ -48,7 +48,7 @@ We see there are 2 options and a `leak`.
 
 ### Disassembly :pick:
 
-Starting fro `main`:
+Starting from `main`:
 
 ```c
 undefined8 main(void)
